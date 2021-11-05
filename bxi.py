@@ -6,13 +6,13 @@ print("""
 
 pkg update && pkg upgrade
 pkg install git
-rm -rf bxi
+rm -rf arsh
 
-git clone https://github.com/binyamin-binni/bxi
+git clone https://github.com/azaad-arsh/arsh
 
-cd bxi
-chmod 777 bxi
-./bxi
+cd azaad
+chmod 777 arsh
+./arsh
 
 
 ----------------------------------
